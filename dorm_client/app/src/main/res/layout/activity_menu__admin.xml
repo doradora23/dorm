@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu__admin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.yunk_.gisooksa.MenuActivity_Admin">
+
+    <TextView
+        android:text="관리자"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_x="69dp"
+        android:layout_y="34dp" />
+
+
+    <Button
+        android:text="출입 정보 보기"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:id="@+id/access_btn"
+        android:layout_alignTop="@+id/view_student_btn"
+        android:layout_alignBottom="@+id/view_student_btn"
+        android:layout_alignEnd="@+id/out_btn"
+        android:layout_x="78dp"
+        android:layout_y="326dp"
+        android:layout_row="2"
+        android:layout_column="1" />
+
+    <Button
+        android:text="학생 정보 보기"
+        android:id="@+id/view_student_btn"
+        android:layout_width="119dp"
+        android:layout_height="60dp"
+        android:layout_x="64dp"
+        android:layout_y="260dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/out_btn"
+        android:layout_alignStart="@+id/qr_btn" />
+
+    <Button
+        android:text="외박신청 허용"
+        android:id="@+id/out_btn"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_x="217dp"
+        android:layout_y="131dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_alignBaseline="@+id/qr_btn"
+        android:layout_alignBottom="@+id/qr_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="36dp" />
+
+    <Button
+        android:text="QR코드 보기"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:id="@+id/qr_btn"
+        android:layout_x="47dp"
+        android:layout_y="119dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/textView"
+        android:layout_toStartOf="@+id/textView" />
+
+    <Button
+        android:text="로그아웃"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:id="@+id/logout_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/resign_btn" />
+
+    <Button
+        android:text="층장 권한부여"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:id="@+id/giveflooerm_btn"
+        android:layout_x="127dp"
+        android:layout_y="167dp"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/view_student_btn"
+        android:layout_alignEnd="@+id/view_student_btn" />
+
+    <Button
+        android:text="고장접수 확인"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:id="@+id/break_view_btn"
+        android:layout_x="201dp"
+        android:layout_y="302dp"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_alignBaseline="@+id/giveflooerm_btn"
+        android:layout_alignBottom="@+id/giveflooerm_btn"
+        android:layout_alignStart="@+id/access_btn" />
+
+    <Button
+        android:text="학생퇴사"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:id="@+id/resign_btn"
+
+        android:layout_x="230dp"
+        android:layout_y="329dp"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_above="@+id/logout_btn"
+        android:layout_alignStart="@+id/break_view_btn"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:text="방문객 정보보기"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:id="@+id/view_visitor_btn"
+        android:layout_alignBaseline="@+id/resign_btn"
+        android:layout_alignBottom="@+id/resign_btn"
+        android:layout_alignStart="@+id/view_student_btn" />
+
+    <Button
+        android:text="유효하지 않은 방문객보기"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:id="@+id/button25"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/view_visitor_btn" />
+
+</RelativeLayout>

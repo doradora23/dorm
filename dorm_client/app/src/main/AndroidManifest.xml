@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yunk_.gisooksa">
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuActivity_Student" />
+        <activity android:name=".MenuActivity_FloorMaster" />
+        <activity android:name=".MenuActivity_Admin" />
+        <activity android:name=".MenuActivity_visitor" />
+        <activity android:name=".ViewQRcode" />
+        <activity android:name=".apply_out" />
+        <activity android:name=".ViewScore" />
+        <activity android:name=".Modi_info" />
+        <activity android:name=".apply_break" />
+        <activity android:name=".Allow_out" />
+        <activity android:name=".View_student" />
+        <activity android:name=".View_access" />
+        <activity android:name=".Input_visit" />
+        <activity android:name=".Force_resign_student" />
+        <activity android:name=".Give_score" />
+        <activity android:name=".Allow_break" />
+        <activity android:name=".View_visitor" />
+        <activity android:name=".Give_floormaster" />
+        <activity android:name=".Room_Reader" />
+        <activity android:name=".Gate_Reader" />
+        <activity android:name=".View_floorstu" />
+        <activity android:name=".Check_visitor" />
+        <activity android:name=".Out_view"></activity>
+    </application>
+
+</manifest>

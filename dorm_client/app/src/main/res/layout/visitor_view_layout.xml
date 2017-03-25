@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="김철수"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView39"
+        android:layout_weight="1"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="남성"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView42"
+        android:layout_weight="1"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="01052357521"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView41"
+        android:layout_weight="1"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="612호"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView40"
+        android:layout_weight="1"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="정기퇴사"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView37"
+        android:layout_weight="1"
+        android:textAlignment="center" />
+</LinearLayout>

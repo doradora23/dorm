@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_input_visit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.yunk_.gisooksa.Input_visit">
+
+    <TextView
+        android:text="이름 :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="36dp"
+        android:id="@+id/textView13"
+        android:textAlignment="textEnd"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView13"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/editText" />
+
+    <TextView
+        android:text="전화번호 :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView19"
+        android:layout_alignStart="@+id/textView19"
+        android:layout_marginTop="89dp"
+        android:id="@+id/textView20"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="방문사유 :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView21"
+        android:layout_alignEnd="@+id/textView21"
+        android:layout_marginTop="42dp"
+        android:id="@+id/textView22"
+        android:textSize="18sp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_alignBaseline="@+id/textView19"
+        android:layout_alignBottom="@+id/textView19"
+        android:layout_alignStart="@+id/editText" />
+
+    <TextView
+        android:text="비밀번호 :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:id="@+id/textView19"
+        android:textSize="18sp"
+        android:layout_below="@+id/editText"
+        android:layout_toStartOf="@+id/editText" />
+
+    <TextView
+        android:text="방문호실 :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:id="@+id/textView21"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView20"
+        android:layout_alignStart="@+id/textView20" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_alignBaseline="@+id/textView20"
+        android:layout_alignBottom="@+id/textView20"
+        android:layout_alignStart="@+id/editText2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText6"
+        android:layout_alignBaseline="@+id/textView21"
+        android:layout_alignBottom="@+id/textView21"
+        android:layout_alignStart="@+id/editText3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText7"
+        android:layout_alignBaseline="@+id/textView22"
+        android:layout_alignBottom="@+id/textView22"
+        android:layout_alignStart="@+id/editText6" />
+
+    <Button
+        android:text="방문자 로그인"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <TextView
+        android:text="퇴사시간 :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button7"
+        android:layout_alignEnd="@+id/textView22"
+        android:id="@+id/textView12"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_alignStart="@+id/editText7"
+        android:id="@+id/editText8"
+        android:layout_toStartOf="@+id/button7" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/editText3"
+        android:layout_alignEnd="@+id/editText8"
+        android:layout_marginBottom="15dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "남성"
+            android:id="@+id/radio_male" />
+
+        <RadioButton
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "여성"
+            android:checked="false"
+            android:id="@+id/radio_female" />
+
+    </RadioGroup>
+
+    <TextView
+        android:text="ex)19시00분은 1900으로입력"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView45"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_marginStart="11dp" />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="102호"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView28"
+        android:layout_weight="1"
+        android:textSize="24sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="문고리가고장났어요."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView31"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+</LinearLayout>

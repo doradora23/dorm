@@ -1,0 +1,1 @@
+include ':app', ':core-2.3.0-javadoc', ':javase', ':zxing-1.7-javase'
